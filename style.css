@@ -56,7 +56,8 @@ h2 {
   font-size: 1.5em;
 }
 
-#licoes_aprendidas {
+#licoes_aprendidas , #licoes_a_aprender {
   padding: 0 20px;
   margin: 40px;
+  display: inline-block;
 }
