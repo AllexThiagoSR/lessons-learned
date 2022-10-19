@@ -8,4 +8,10 @@ body {
     top: 0;
     right: 0;
     left: 0;
+    position: fixed;
+    height: 100px;
+}
+
+#titulo {
+    text-align: center;
 }
