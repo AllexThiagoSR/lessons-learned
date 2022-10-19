@@ -43,6 +43,10 @@ main {
   margin-left: 50px;
 }
 
+#contact:hover{
+    color: blue;
+}
+
 #lessons {
   padding-top: 40px;
   margin: 50px;
