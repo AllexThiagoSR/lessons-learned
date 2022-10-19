@@ -4,14 +4,14 @@ body {
 }
 
 #cabecalho {
-    background-color: #cf4ff2;
-    top: 0;
-    right: 0;
-    left: 0;
-    position: fixed;
-    height: 100px;
+  background-color: rgb(207, 79, 242);
+  top: 0;
+  right: 0;
+  left: 0;
+  position: fixed;
+  height: 100px;
 }
 
 #titulo {
-    text-align: center;
+  text-align: center;
 }
