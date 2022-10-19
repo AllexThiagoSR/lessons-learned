@@ -1,3 +1,7 @@
+* {
+  font-size: 20px;
+}
+
 body {
   background-color: rgb(253, 251, 251);
 }
@@ -12,8 +16,13 @@ body {
   display: block;
 }
 
+main {
+  margin-top: 100px;
+}
+
 #titulo {
   text-align: center;
+  font-size: 2em;
 }
 
 #minha_foto {
@@ -22,8 +31,28 @@ body {
   border-radius: 300px;
   margin: 40px;
   background-color: rgb(207, 79, 242);
+  display: block;
 }
 
-main {
-  margin-top: 100px;
+#contact {
+  display: inline;
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px 20px;
+  margin-left: 50px;
+}
+
+#lessons {
+  padding-top: 40px;
+  margin: 50px;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+#licoes_aprendidas {
+  padding: 0 20px;
+  margin: 40px;
 }

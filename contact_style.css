@@ -1,0 +1,12 @@
+* {
+    padding: 40px;
+}
+
+body {
+    text-align: center;
+    background-color: rgb(221, 185, 250);
+}
+
+img {
+    border-radius: 300px;
+}
