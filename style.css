@@ -1,4 +1,6 @@
-* { font-size: 20px;}
+* {
+  font-size: 20px;
+}
 
 body {
   background-color: rgb(253, 251, 251);
@@ -12,6 +14,7 @@ body {
   position: fixed;
   height: 100px;
   display: block;
+  z-index: 2;
 }
 
 main {
@@ -58,6 +61,42 @@ h2 {
   padding: 0 20px;
   margin: 40px;
   display: inline-block;
+}
+
+#artigo {
+  margin-left: 40px;
+  width: 50%;
+  display: inline-block;
+  border-right: 1px solid black;
+}
+
+#artigo p {
+  padding: 50px;
+  text-align: justify;
+}
+
+#lado_a_lado {
+  padding: relative;
+}
+
+#de_lado {
+  display: inline-block;
+  margin-left: 40px;
+  width: 33%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  margin-left: 70px;
+}
+
+#de_lado p {
+  text-align: justify;
+  padding: 50px;
+}
+
+#rodape {
+  border-top: 1px solid black;
+  margin-top: 100px;
 }
 
 #rodape p {
